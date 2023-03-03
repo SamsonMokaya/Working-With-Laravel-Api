@@ -30,3 +30,4 @@ Route::post('createStudent', [StudentController::class, 'createStudent']);
 
 Route::put('updateStudent/{id}', [StudentController::class, 'updateStudent']);
 
+Route::delete('deleteStudent/{id}', [StudentController::class, 'deleteStudent']);
